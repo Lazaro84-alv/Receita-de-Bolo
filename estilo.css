@@ -1,0 +1,71 @@
+* {
+      box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+header {
+      text-align: center;
+      width: 100%;
+      border: 2px solid gray;
+      background-color: #fff;
+      padding: 10px;
+      position: fixed;
+      z-index: 2;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  border-color: blueviolet;
+  border-radius: 8px;
+  background-color: blueviolet;
+  padding: 8px 16px;
+  color: #fff;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h1,h2,h3{
+  text-align: center;
+  color:black;
+}
+
+ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+}
+
+ol{
+     list-style: none;
+      margin: 0;
+      padding: 0; 
+}
+
+li {
+      display: inline-block;
+      padding: 20px;
+}
+
+a {
+      text-decoration: none;
+}
+
+img.chat {
+      width: 80px;
+      position: fixed;
+      z-index: 2;
+      right: 0;
+      bottom: 0;
+}
+
+@media()
+
